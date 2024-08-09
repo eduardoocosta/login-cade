@@ -1,4 +1,4 @@
-// função para validação de acesso
+// Validar o acesso do login
 function acessar() {
     let loginEmail = document.getElementById("loginEmail").value;
     let loginSenha = document.getElementById("loginSenha").value;
@@ -10,7 +10,7 @@ function acessar() {
     }
   }
    
-  // função para armazenamento de nomes em array
+  // Função que armazena nomes guardados no array
    
   var dadosLista = [];
   function salvarUser() {
