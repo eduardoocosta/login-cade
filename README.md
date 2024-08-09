@@ -9,16 +9,20 @@ Login/Cadastro 🚀
 # Tela de cadastro 
 ![tela do sistema](cadastro.png)
 
-# Funções utilizadas so JavaScript
+<h1 align = "center">
+
+Elementos e do JavaScript utilizado
+
+</h1>
+
+>* ``Array``
+>Cria elementos.
 >* ``Button``
 >É um elemento interativo ativado por um usuário com mouse, teclado, dedo, comando de voz ou outra tecnologia assistiva. Uma vez ativado, ele executa uma ação, como enviar um formulário ou abrir uma caixa de diálogo.
-
 
 >* ``Splice``
 >Remove e adiciona elementos do array
 
->* ``Button``
->representa o conteúdo de um documento HTML.
 
 # Tecnologias Utilizadas
 >* ``HTML5``
