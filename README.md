@@ -37,5 +37,10 @@ Elementos e do JavaScript utilizado
 >- Validação dos dados inseridos para garantir que sejam fornecidos corretamente.
 >- Notificação por e-mail ou armazenamento em um banco de dados para acompanhar as informações recebidas.
 
+# Desenvolvedor do projeto
+* [eduardoocosta](https://github.com/eduardoocosta)
+* [duardoosta](https://www.instagram.com/duardooosta)
+
+
 
 
