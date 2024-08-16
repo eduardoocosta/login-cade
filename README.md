@@ -7,7 +7,7 @@ Login/Cadastro 🚀
 ![tela do sistema](login.png)
 
 # Tela de cadastro 
-![tela do sistema](cadastro.png)
+![tela do sistema](cadastro2.png)
 
 <h1 align = "center">
 
