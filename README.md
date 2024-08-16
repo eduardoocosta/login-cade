@@ -2,16 +2,21 @@
 
 Login/Cadastro 📋
 
+<h1 align = "center"
 
-# Tela de login
+Tela de Login
+
 ![tela do sistema](login.png)
 
-# Tela de cadastro 
+<h1 align = "center"
+
+Tela de cadastro
+
 ![tela do sistema](cadastro2.png)
 
 <h1 align = "center">
 
-Elementos e do JavaScript utilizado
+Elementos do JavaScript utilizado:
 
 </h1>
 
