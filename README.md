@@ -24,7 +24,8 @@ Elementos e do JavaScript utilizado
 >Remove e adiciona elementos do array
 
 
-# Tecnologias Utilizadas
+
+# 🛠️Tecnologias Utilizadas
 >* ``HTML5``
 >* ``CSS3``
 >* ``Github`` 
