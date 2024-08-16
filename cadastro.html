@@ -16,8 +16,15 @@
   <body>
     <div class="container">
       <label for="">Nome:</label>
-      <input type="text" class="form-control" id="nomeUser" />
-      <br />
+      <input type="text" class="form-control" id="nomeUser"/>
+      <br/>
+      <button type="button" onclick="salvarUser()" class="btn btn-dark">Salvar</button>
+    </div>
+    <br />
+    <div class="container">
+      <label for="">Email:</label>
+      <input type="text" class="form-control" id="emailUser"/>
+      <br/>
       <button type="button" onclick="salvarUser()" class="btn btn-dark">Salvar</button>
     </div>
     <br />
@@ -25,6 +32,7 @@
       <table class="table table-striped" id="tabela">
         <tr>
           <th>Nome Usúario</th>
+          <th>Email</th>
           <th>Ações</th>
         </tr>
       </table>

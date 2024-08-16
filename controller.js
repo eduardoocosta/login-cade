@@ -11,7 +11,6 @@ function acessar() {
   }
    
   // Função que armazena nomes guardados no array
-   
   var dadosLista = [];
   function salvarUser() {
     let nomeUser = document.getElementById("nomeUser").value;
@@ -22,6 +21,31 @@ function acessar() {
       document.getElementById('nomeUser').value = "";
     } else {
       alert("Favor informe um nome para cadastro");
+    }
+  }
+
+
+  var dadosLista = [];
+  function salvarUser() {
+    let emailUser = document.getElementById("emailUser").value;
+    if (emailUser) {
+      dadosLista.push(emailUser);
+      console.log(dadosLista);
+      criaLista();
+      document.getElementById('emailUser').value = "";
+    } else {
+      alert("Favor informe um email para o cadastro");
+    }
+  }
+  
+
+  function checarEmail() {
+    if (
+      document.forms[0].email.value == "" ||
+      document.forms[0].email.value.indexOf("@") == -1 ||
+      document.forms[0].email.value.indexOf(".") == -1
+    ) {
+      document.getElementById("email").innerHTML = document.forms[0].email.value;
     }
   }
    
