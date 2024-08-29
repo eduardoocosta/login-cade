@@ -12,7 +12,7 @@ Tela de Login
 
 Tela de cadastro
 
-![tela do sistema](cadastro2.png)
+![tela do sistema](cadastro3.png)
 
 <h1 align = "center">
 
