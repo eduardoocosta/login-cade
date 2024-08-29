@@ -1,11 +1,11 @@
-// FUNÇÃO PARA ACESSAR E REDIRECIONAR
+// Função para acessar e redirecionar
 function validarEmail(email) {
   // Expressão regular para validar o formato do email
   const padraoEmail = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
   return padraoEmail.test(email);
 }
 
-// FUNÇÃO QUE VALIDA O FORMATO DO CPF
+// Validação de CPF
 function validarCPF(cpf) {
   cpf = cpf.replace(/[^\d]+/g,''); // Remove caracteres não numéricos
 
@@ -39,8 +39,8 @@ function validarCPF(cpf) {
   return true;
 }
 
-// VALIDAR ACESSO TELA DE LOGIN
-// VALIDA SE OS CAMPOS FORAM PREENCHIDOS E O REDIRECIONA PARA A PÁGINA DE CADASTRO, CASO CONTRÁRIO ENVIA UM ALERTA
+// Acesso a Tela de Login
+// Verificação se todos os campos estão corrigidos corretamente
 function acessar() {
   let loginEmail = document.getElementById('loginEmail').value;
   let loginSenha = document.getElementById('loginSenha').value;
@@ -55,8 +55,8 @@ function acessar() {
   }
 }
 
-// FUNÇÃO QUE ARMAZENA NOME, EMAIL E CPF NA TELA DE CADASTRO
-// O CÓDIGO ADICIONA UM NOME À LISTA E LIMPA OS CAMPOS SE O NOME NÃO ESTIVER VAZIO, CASO CONTRÁRIO, EXIBE UM ALERTA
+// Função que armazena dados do Array
+// O CÓDIGO ADICIONA UM NOME À LISTA E LIMPA OS CAMPOS SE O NOME NÃO ESTIVER VAZIO
 var dadosLista = [];
 function salvarUser() {
   let nomeUser = document.getElementById('nomeUser').value;
@@ -80,7 +80,7 @@ function salvarUser() {
   }
 }
 
-// FUNÇÃO PARA CRIAR LISTA DE USUÁRIOS
+// Array dos usuários
 // O CÓDIGO ATUALIZA O CONTEÚDO DA TABELA HTML PARA EXIBIR OS DADOS DA LISTA, CRIANDO LINHAS PARA CADA ITEM, ADICIONANDO "BOTÕES DE EDITAR E EXCLUIR"
 function criarLista() {
   let tabela = "<tr><th>Nome Usuário</th><th>Email</th><th>CPF</th><th>Ações</th></tr>";
@@ -92,7 +92,7 @@ function criarLista() {
   document.getElementById('tabela').innerHTML = tabela;
 }
 
-// FUNÇÃO PARA EDITAR NOME, EMAIL E CPF DA LISTA
+// Função para editar
 // O CÓDIGO ATUALIZA OS CAMPOS `NOMEUSER`, `EMAILUSER` E `CPUSER` COM O VALOR DO ITEM NA POSIÇÃO 'I' DO ARRAY `DADOSLISTA` E REMOVE O ITEM DA LISTA
 function editar(i) {
   document.getElementById('nomeUser').value = dadosLista[i].nome;
