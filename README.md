@@ -43,10 +43,6 @@ Elementos do JavaScript utilizado:
 >- Validação dos dados inseridos para garantir que sejam fornecidos corretamente.
 >- Notificação por e-mail ou armazenamento em um banco de dados para acompanhar as informações recebidas.
 
-# Desenvolvedor do projeto
-* [eduardoocosta](https://github.com/eduardoocosta)
-* [duardoosta](https://www.instagram.com/duardooosta)
-
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
@@ -82,6 +78,11 @@ Inicie o servidor
 ```bash
   npm run start
 ```
+
+# Desenvolvedor do projeto
+* [eduardoocosta](https://github.com/eduardoocosta)
+* [duardoosta](https://www.instagram.com/duardooosta)
+
 
 
 
